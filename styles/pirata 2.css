@@ -1,0 +1,23 @@
+@font-face {font-family: ejemplo;src: url("../fonts/Arabella.ttf");}
+body {font-family: ejemplo;
+        font-size: 3vh;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(197, 171, 143);}
+#bloque {background-image: url(../imagenes/imagen\ 2.jpeg);
+        background-size: cover;
+        background-position: 90%;
+        width: 80%;
+        border-radius: 80px 80px 7px 80px;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        box-shadow: 5vw 5vw 60px rgb(160, 130, 97),
+                -5vw -5vw 60px rgb(160, 130, 97),
+                5vw -5vw 60px rgb(160, 130, 97),
+                -5vw 5vw 60px rgb(160, 130, 97);}
+#poema {background-color: rgba(248, 248, 255, 0.37);
+        width: 300px;
+        border-radius: 30px;
+        margin: auto;
+        padding: 3px;}

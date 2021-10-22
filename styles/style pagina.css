@@ -1,0 +1,23 @@
+        @font-face {
+            font-family: texto;
+            src: url("../fonts/Sacramento-Regular.ttf");
+        }
+        @font-face {
+            font-family: dos;
+            src: url("../fonts/Arabella.ttf");
+        }       
+        body {background-image: url("../imagenes/fillvector210101852.jpg");
+            background-size: 25%;
+            margin: 0px;
+            padding: 0px;
+            }
+        #bloque {background-color: rgba(0, 203, 253, 0.877);
+                width: 65vh;
+                padding: 20px 0px;
+                margin: 5vh auto;
+                border-radius: 25px;
+                font-family: texto;}
+        #poema {width: 300px;
+                margin: auto;}
+
+        #poema h2 {font-family: dos;}
